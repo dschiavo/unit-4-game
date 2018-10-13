@@ -1,3 +1,28 @@
 body
 { background: lightblue;}
 
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+#random-total
+{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#win-loss-tracker
+{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#random-total
+{
+    font-size: large;
+}
