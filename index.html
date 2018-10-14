@@ -3,6 +3,7 @@
     <head>
             <link rel="stylesheet" href="assets/css/style.css">
             <script src="assets/javascript/game.js"></script>
+            <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     </head>
     <body>
             <div>
@@ -15,16 +16,18 @@
                 <p>The value of each crystal is hidden from you until you click on it.</p>
                 <p>Each time when the game starts, the game will change the values of each crystal.</p>
             </div>
+            <div id = "container">
+                <div id = "random-total">
 
-            <div id = "random-total"></div>
-            <div id = "win-loss-tracker">
-
-                <p id = "win-lose"></p>
-                <h3>Wins: </h3>
-                <h3>Losses: </h3>
+                </div>
+                 <div id = "win-loss-tracker">
+              
+                <p id = "wins">Wins: </p>
+                <p id = "losses">Losses: </p> 
+                 </div>
             </div>
            
-            <div>
+            <div id="gems">
                 <button id="gem1"><img src="assets/images/blue.jpg"></button>
                 <button id="gem2"><img src="assets/images/diamond.jpg"></button>
                 <button id="gem3"><img src="assets/images/pink.jpg"></button>
